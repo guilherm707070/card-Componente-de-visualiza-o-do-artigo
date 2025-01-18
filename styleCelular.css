@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+  body {
+    background-color: #D6D7D9;
+  }
+  main {
+    box-shadow: #072a35 7px 7px 20px 1px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 55svh;
+    height: 90svh;
+    font-size: small;
+    font-weight: 20;
+  }
+  h1 {
+
+    display: flex;
+    padding-left: 20px;
+    margin: 10px;
+    height: 13vh;
+    width: 320px;
+    font-size: medium;
+    }
+  #card{
+    padding: 0;
+    margin:-8px;
+    width: 350px;
+    height: 700px;
+    align-content: center;
+    align-content: center;
+  }
+  #img {
+    width: 55vh;
+    height: 288px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+  #footer {
+    padding: 5px;
+    margin-top: -19px;
+    width:80%;
+    height: 10vh;
+    display: flex;
+    margin-left: 30px;
+    
+  }
+  #texto {
+    display: flex;
+    height:18vh;
+    width: 300px;
+    margin: -10px 0px 20px 1px; 
+  }
+  #rede-sociais {
+    display: flex;
+    align-items: center;
+    margin: -1px -46px 10px 10px;
+    padding: 1px 3px 2px 2px;
+    clip-path: none;
+    width: 351px;
+    border-radius: 13px;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 60px;
+    background-color: #06222bf3;
+    box-shadow: #011925 1px 2px 4px 3px;
+    display:none;
+
+    
+    
+  }
+  #otra-redes {
+    
+    flex-direction: column;
+    padding: 8px ;
+    display: flex;
+    align-items: start;
+    flex-direction: row-reverse;
+    width: 10px;
+    height:39px;
+  }
+  
+  .social {
+    height: auto;
+    padding:5px;
+    width: 20px;
+    border-radius: 20%;
+ 
+
+  }
+  .B{
+    margin:10px 30px 10px 15px;
+    flex-direction:row ;
+    align-items: center;
+    align-content: center;
+    border: solid 1px;
+
+    background-color: #6e809846;
+    border-radius: 30%;
+    width: 40px;
+    height: 40px
+  }
+  
+.B:hover{
+  box-shadow: #717374 1px 1px 6px 1px;
+}
+
+}
