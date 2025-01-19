@@ -44,7 +44,7 @@ h1 {
   height: 12vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: bold;
   font-size: medium;
   justify-content: center;
   align-items: center;
@@ -83,11 +83,10 @@ P {
 }
 
 #texto {
-  font-weight: 220;
-  font-size: X-small;
+  font-size: small;
   padding-left: 30px;
   margin: 10px 0 23px 10px;
-  height: 7vh;
+  height: 11vh;
   color: rgba(61, 59, 59, 0.767);
   width: 63vh;
   z-index: 0;
