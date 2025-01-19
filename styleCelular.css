@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   body {
-    background-color: #D6D7D9;
+    background-color: #ffffff;
   }
   main {
     box-shadow: #072a35 7px 7px 20px 1px;
@@ -8,102 +8,98 @@
     align-items: center;
     margin-top: 20px;
     flex-direction: column;
-    width: 375px;
-    height: 90svh;
+    width: 12.7rem;
+    height: 24.5rem;
     font-size: small;
     font-weight: 20;
   }
   h1 {
-
+    margin: 0 10px;
     display: flex;
-    padding-left: 10px;
-    margin: 10px;
-    height: 13vh;
-    width: 320px;
-    font-size: medium;
-    }
-  #card{
+    padding: 20px 8px;
+    height: 10vh;
+    width: 11.2rem;
+    font-size: small;
+    font-weight: 1;
+  }
+  #card {
     padding: 0;
-    margin:-8px;
-    width: 350px;
-    height: 700px;
-    align-content: center;
+    margin: -8px;
+    width: 13.3rem;
+    height: 14.8rem;
     align-content: center;
   }
   #img {
-    width: 375px;
-    height: 228px;
+    margin-top: 0px;
+    width: 12.7rem;
+    height: 10.1rem;
     border-radius: 10px 10px 0 0;
-    object-fit: cover;
+    object-fit: contain;
   }
   #footer {
-    padding: 5px;
-    margin-top: -19px;
-    width:80%;
-    height: 10vh;
+    scale: 0.8;
+    padding: 30px 5px;
+    width: 100%;
+    height: 8vh;
     display: flex;
-    margin-left: 30px;
-    
+    margin: -8px;
+    font-size: x-small;
   }
   #texto {
+    align-items: center;
+    align-content: center;
     display: flex;
-    padding-top: 10px;
-    height:20vh;
-    width: 300px;
-    margin: -10px 0px 20px -8px; 
+    padding: 1px 9px;
+    height: 5.8rem;
+    width: 12rem;
+    margin: 0px 0px 0px 10px;
+    font-size: xx-small;
   }
   #rede-sociais {
     display: flex;
     align-items: center;
-    margin: -10px -54px 10px 10px;
-    padding: 1px 3px 2px 9px;
+    margin: -10px -38px 10px 20px;
+    padding: 12px 15px ;
     clip-path: none;
-    width: 360px;
+    width: 17.6rem;
     border-radius: 13px;
     flex-wrap: wrap;
     position: absolute;
     height: 60px;
     background-color: #06222bf3;
     box-shadow: #011925 1px 2px 4px 3px;
-    display:none;
-
-    
-    
+    display: none;
   }
   #otra-redes {
-    
     flex-direction: column;
-    padding: 8px ;
+    padding: 0px 8px;
     display: flex;
     align-items: start;
     flex-direction: row-reverse;
     width: 10px;
-    height:39px;
+    height: 39px;
+    scale: 0.8;
   }
-  
+
   .social {
     height: auto;
-    padding:5px;
+    padding: 5px;
     width: 20px;
     border-radius: 20%;
- 
-
   }
-  .B{
-    margin:10px 30px 10px 15px;
-    flex-direction:row ;
+  .B {
+    margin: 10px 10px 10px 8px;
+    flex-direction: row;
     align-items: center;
     align-content: center;
     border: solid 1px;
-
     background-color: #6e809846;
     border-radius: 30%;
-    width: 40px;
-    height: 40px
+    width: 50px;
+    height: 50px;
   }
-  
-.B:hover{
-  box-shadow: #717374 1px 1px 6px 1px;
-}
 
+  .B:hover {
+    box-shadow: #717374 1px 1px 6px 1px;
+  }
 }

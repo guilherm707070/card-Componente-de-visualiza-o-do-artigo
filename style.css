@@ -44,7 +44,8 @@ h1 {
   height: 12vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 100;
+  font-size: medium;
   justify-content: center;
   align-items: center;
   margin: 7px 2px 2px 10px;
@@ -61,7 +62,7 @@ P {
 }
 #informa {
   padding-right: 30px;
-  width: 340px;
+  width: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -70,18 +71,24 @@ P {
   flex-direction: column;
 }
 #footer {
-  padding:26px 60px 10px 20px ;
-  width: 80vh;
-  height: 5vh;
+  scale: 0.9;
+  font-weight: 10;
+  font-size: small;
+  padding:20px 6px 10px 2px ;
+  width: 100vh;
+  height: 1vh;
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 1px;
 }
+
 #texto {
+  font-weight: 220;
+  font-size: X-small;
   padding-left: 30px;
-  margin: 10px 0 39px 10px;
+  margin: 10px 0 23px 10px;
   height: 7vh;
-  color: rgba(8, 8, 8, 0.767);
+  color: rgba(61, 59, 59, 0.767);
   width: 63vh;
   z-index: 0;
 }
