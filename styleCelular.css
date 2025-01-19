@@ -8,7 +8,7 @@
     align-items: center;
     margin-top: 20px;
     flex-direction: column;
-    width: 55svh;
+    width: 375px;
     height: 90svh;
     font-size: small;
     font-weight: 20;
@@ -16,7 +16,7 @@
   h1 {
 
     display: flex;
-    padding-left: 20px;
+    padding-left: 10px;
     margin: 10px;
     height: 13vh;
     width: 320px;
@@ -31,8 +31,8 @@
     align-content: center;
   }
   #img {
-    width: 55vh;
-    height: 288px;
+    width: 375px;
+    height: 228px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
   }
@@ -47,17 +47,18 @@
   }
   #texto {
     display: flex;
-    height:18vh;
+    padding-top: 10px;
+    height:20vh;
     width: 300px;
-    margin: -10px 0px 20px 1px; 
+    margin: -10px 0px 20px -8px; 
   }
   #rede-sociais {
     display: flex;
     align-items: center;
-    margin: -1px -46px 10px 10px;
-    padding: 1px 3px 2px 2px;
+    margin: -10px -54px 10px 10px;
+    padding: 1px 3px 2px 9px;
     clip-path: none;
-    width: 351px;
+    width: 360px;
     border-radius: 13px;
     flex-wrap: wrap;
     position: absolute;
