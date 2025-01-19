@@ -71,10 +71,10 @@ P {
   height: 16rem;
 }
 #footer {
-  scale: 1.1;
+  scale: 1;
   font-weight: 10;
   font-size: small;
-  padding: 6px 6px 10px 60px;
+  padding: 6px 6px 10px 35px;
   width: 80vh;
   height: 10vh;
   display: flex;
