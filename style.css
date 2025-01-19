@@ -20,8 +20,8 @@ body {
 }
 main {
   box-shadow: #3f3f97 7px 7px 20px 1px;
-  background-color: #c5c1c1;
-  color: black;
+  background-color: #e0dddd;
+  color: rgba(0, 0, 0, 0.897);
   margin-top: 30vh;
   width: 109vh;
   height: 42vh;
@@ -43,7 +43,7 @@ h1 {
   height: 10vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: large;
   justify-content: center;
   align-items: center;
@@ -85,11 +85,12 @@ P {
 }
 
 #texto {
+  font-weight: lighter;
   font-size: medium;
   padding-left: 30px;
   margin: 10px 0 2px 10px;
   height: 11vh;
-  color: rgba(12, 12, 12, 0.753);
+  color: rgba(0, 0, 0, 0.725);
   width: 63vh;
   z-index: 0;
 }
